@@ -1,7 +1,7 @@
 import os.path
 
 from django.conf import settings
-from django.utils.encoding import smart_text, smart_bytes
+from django.utils.encoding import smart_str, smart_bytes
 
 try:
     from urllib.parse import quote
